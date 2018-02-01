@@ -4,6 +4,43 @@ import java.util.Date;
 
 public class Bet {
     private int id;
+
+    public int getId() {
+        return id;
+    }
+
+    public int getIduser() {
+        return iduser;
+    }
+
+    public Date getDate() {
+        return date;
+    }
+
+    public int getDrawid() {
+        return drawid;
+    }
+
+    public int getBet1() {
+        return bet1;
+    }
+
+    public int getBet2() {
+        return bet2;
+    }
+
+    public int getBet3() {
+        return bet3;
+    }
+
+    public int getBet4() {
+        return bet4;
+    }
+
+    public int getBet5() {
+        return bet5;
+    }
+
     private int iduser;
     private Date date;
     private int drawid;
